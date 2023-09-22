@@ -1,2 +1,28 @@
 
 /* Your CSS Code here. */
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body{
+	height:100vh;
+	padding:20px;
+}
+.holder{
+	max-width:800px;
+	min-height:400px;
+	border:1px solid black;
+	margin-line:auto;
+	display:flex;
+	
+	flex-wrap: wrap;
+	justify-content:space-between;
+	}
+.box{
+	width:100px;
+	height:100px;
+	background:black;
+	color:whitesmoke;
+	font-size:30px;
+}
